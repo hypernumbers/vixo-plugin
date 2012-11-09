@@ -1,4 +1,6 @@
-vixo-wordpress-plugin
+Vixo Wordpress Plugin
 =====================
 
-Generic Wordpress Plugin For Vixo
+This is the the generic Wordpress Plugin For Vixo.
+
+For examples of what it can be used for goto http://wordpress.vixo.com
