@@ -9,24 +9,24 @@ HN.wordpress = {};
 
 HN.wordpress.postMessage = function () {
 
-    var receiveFun, height, width, style;
+    var receiveFun, style;
 
     console.log(document.location);
 
     receiveFun = function (e) {
 
+	console.log(e);
+
         var h = Number(e.data.replace(/.*height=(\d+)(.*$)/, '$1')),
         w = Number(e.data.replace(/.*width=(\d+)(.*$)/, '$1')),
+        name = decodeURIComponent(e.data.replace(/.*name=(.+)(.*$)/, '$1')),
         recursiveFn;
 
-        if (h !== height) {
-            jQuery(".hn_wordpress").css("height", h + 1);
-            height = h;
-        }
-        if (w !== width) {
-            jQuery(".hn_wordpress").css("width", w + 1);
-            width = w;
-        }
+	console.log(h);
+	console.log(w);
+	
+        jQuery("#" + name).css("height", h + 1);
+        jQuery("#" + name).css("width", w + 1);
 
         recursiveFn = function () {
             jQuery.receiveMessage(receiveFun);
