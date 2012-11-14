@@ -18,7 +18,7 @@ class vixo_shortcode {
 	       // now return the html
 	       $page = utf8_uri_encode(get_permalink());
 	       $name = uniqid();
-	       return "<iframe id='$name' class='hn_wordpress' style='border:0;display:none;' src='$url#$page!$name'></iframe>";
+	       return "<iframe id='$name' class='hn_wordpress' style='border:0;display:none;' src='$url#wordpress!$page!$name'></iframe>";
 	       }
 }
 
