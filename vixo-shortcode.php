@@ -9,16 +9,34 @@ add_shortcode('vixo', array('vixo_shortcode', 'shortcode'));
 // this is the call back class that will be used on rendering the page
 class vixo_shortcode {
       function shortcode($atts, $content=null) {
-      	       extract(shortcode_atts(array('url' => ''), $atts));
+      	       // extract(shortcode_atts(array('url' => ''), $atts));
+      	       extract(shortcode_atts(array('url' => '', 'width' => '', 'height' => ''), $atts));
 	       if (empty($url)) return '<!--No Vixo Url -->';
 	       
+	       $h = "";
+	       $w = "";
+	       $resizeFlag = "";
+
+	       if (!empty($height)) {
+	         $h = "height:$height;";
+                 $resizeFlag = "hn_dont_resize";
+	       }
+ 
+	       if (!empty($width)) {
+	         $w = "width:$width;";
+		 $resizeFlag = "hn_dont_resize";
+	       }
+
+	       // concatenate the strings
+	       $style = "border:0;display:none;" . $h . $w; 
+
 	       // add the custom javascript and css
 	       vixo_load_css_and_javascript();
 	       
 	       // now return the html
 	       $page = utf8_uri_encode(get_permalink());
 	       $name = uniqid();
-	       return "<iframe id='$name' class='hn_wordpress' style='border:0;display:none;' src='$url#wordpress!$page!$name'></iframe>";
+	       return "<iframe id='$name' class='hn_wordpress $resizeFlag' style='$style' src='$url#wordpress!$page!$name'></iframe>";
 	       }
 }
 
