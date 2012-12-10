@@ -15,6 +15,13 @@ Drop graphs, tables, spreadsheet accounts, forms and custom quotation engines bu
 
 You users can maintain the underlying spreadsheets securely and your website updates automatically.
 
+Vixo next-generation spreadsheets have some features that make them easy to work with when embedded in WordPress sites:
+
+* you can also lock down the spreadsheets to a 'form' version so the users can break anything
+* all changes to all cells in the spreadsheet are logged so you can work out who did what
+* you can apply different permissions to each page so you can build one system that produces many graphs - and lock down indidividual users to pages they can update
+* you can build menus and other navigational tools in the spreadsheet to make it easier to deploy to the users
+
 == Installation ==
 
 1. Upload `vixo-plugin-1.0.zip` to the `/wp-content/plugins/` directory
