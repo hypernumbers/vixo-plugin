@@ -82,6 +82,10 @@ The plugin is hosted on [Github](https://github.com/hypernumbers/vixo-plugin).
 
 Feel free to post any problems on the [issues log](https://github.com/hypernumbers/vixo-plugin/issues)
 
+= Tools =
+
+Used [this web service](http://wordpress-markdown-to-github-markdown.com/) to synch the GitHub README.md with the WordPress readme.txt
+
 == Changelog ==
 
 = 1.0 =
