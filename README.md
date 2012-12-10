@@ -17,9 +17,9 @@ You users can maintain the underlying spreadsheets securely and your website upd
 
 Vixo next-generation spreadsheets have some features that make them easy to work with when embedded in WordPress sites:
 
-* you can also lock down the spreadsheets to a 'form' version so the users can break anything
+* you can also lock down the spreadsheets to a 'form' version so the users can't break anything
 * all changes to all cells in the spreadsheet are logged so you can work out who did what
-* you can apply different permissions to each page so you can build one system that produces many graphs - and lock down indidividual users to pages they can update
+* you can control user permissions on spreadsheets simply so users can only change their data
 * you can build menus and other navigational tools in the spreadsheet to make it easier to deploy to the users
 
 ## Installation ##
