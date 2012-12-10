@@ -3,7 +3,7 @@ Contributors: gordonguthrie
 Tags: graphs, tables, spreadsheets, charts, forms, quotation engines, post, page
 Requires at least: 3.0.1
 Tested up to: 3.4
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,7 +24,7 @@ Vixo next-generation spreadsheets have some features that make them easy to work
 
 == Installation ==
 
-1. Upload `vixo-plugin-1.0.zip` to the `/wp-content/plugins/` directory
+1. Upload `vixo-plugin-1.1.zip` to the `/wp-content/plugins/` directory
 1. Unzip it
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Use the shortcode `[vixo url="http://example.com/some/page/"]`
