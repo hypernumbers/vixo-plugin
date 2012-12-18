@@ -14,9 +14,9 @@ Lets you embed graphs and graphs, tables, spreadsheets, forms and quotation engi
 <h3>Insert spreadsheets into WordPress</h3>
 You can now easily insert <a title="insert google and excel compatible spreadsheets into WordPress" href="http://wordpress.vixo.com/publishing-figures-on-wordpress-with-a-vixo-spreadsheet/">accounts and basic spreadsheets</a> directly into your WordPress site - when the user changes them they automatically update without need to be republished in any way.
 <h3>Charts and graphs in WordPress</h3>
-Simply drop <a title="graphs and charts in WordPress" href="http://wordpress.vixo.com/publish-graphs-on-wordpress/">graphs and charts</a> into your WordPress blog. When the underlying data is edited the graph or chart automatically updates.
+Simply drop <a title="graphs and charts in WordPress" href="http://wordpress.vixo.com/graphs-and-charts-in-wordpress/">graphs and charts</a> into your WordPress blog. When the underlying data is edited the graph or chart automatically updates.
 <h3>Creating and inserting tables in WordPress</h3>
-Tabular data is very common. You can now easily <a title="create and insert tables into WordPress" href="http://wordpress.vixo.com/creating-and-inserting-tables-into-wordpress/">create and insert tables of data</a> which the end user can sort of filter into your site.
+Tabular data is very common. You can now easily <a title="create and insert tables into WordPress" href="http://wordpress.vixo.com/creating-and-inserting-tables-into-wordpress/">create and insert tables of data</a> which the end user can sort or filter on your site.
 <h3>Embeddable forms for WordPress</h3>
 The Vixo spreadsheet lets you create <a href="http://wordpress.vixo.com/embeddable-vixo-forms/">simple forms</a> that store information in an online spreadsheet and email you when someone submits data - making your life easier.
 <h3>Calculators and quotation engines for WordPress</h3>
