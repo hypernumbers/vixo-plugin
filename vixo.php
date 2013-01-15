@@ -32,7 +32,7 @@ License: GPL2
 /*
   include the debug settings in
 */
-include 'vixo-debug.php';
+/*include 'vixo-debug.php';*/
 
 /*
   Include in the code that provides the shortcode
