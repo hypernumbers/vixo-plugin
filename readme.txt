@@ -24,7 +24,7 @@ Specialist <a href="http://wordpress.vixo.com/building-a-calculator-or-quote-eng
 
 == Installation ==
 
-1. Upload `vixo-plugin-1.1.zip` to the `/wp-content/plugins/` directory
+1. Upload `vixo-plugin-1.4.zip` to the `/wp-content/plugins/` directory
 1. Unzip it
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Use the shortcode `[vixo url="http://example.com/some/page/"]`
