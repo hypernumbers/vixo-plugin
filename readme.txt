@@ -3,7 +3,7 @@ Contributors: gordonguthrie
 Tags: graphs, tables, spreadsheets, charts, forms, quotation engines, post, page
 Requires at least: 3.0.1
 Tested up to: 3.4
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -96,6 +96,12 @@ This readme was converted from WordPress markdown to GitHub markdown on http://w
 Used [this web service](http://wordpress-markdown-to-github-markdown.com/) to synch the GitHub README.md with the WordPress readme.txt
 
 == Changelog ==
+
+= 1.4 =
+
+Two major bug fixes:
+* use of unsafe jQuery expressions in previous version means that sites using native WordPress jQuery would fail to load spreadsheet elements
+* failure to load native WordPress jQuery means themes that don't use jQuery would fail to load spreadsheet elements
 
 = 1.3 =
 

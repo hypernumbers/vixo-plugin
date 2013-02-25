@@ -49,6 +49,7 @@ function vixo_load_css_and_javascript() {
 	 wp_enqueue_style('vixo.wordpress.css');
 
 	 # Now JS
+	 wp_enqueue_script('jquery');
 	 wp_register_script('vixo.wordpress.js', VIXO_PLUGIN_URL . 'vixo.wordpress.js', false, "", true);
 	 wp_enqueue_script('vixo.wordpress.js');
 	 wp_register_script('jquery.ba-postmessage.js', VIXO_PLUGIN_URL . 'jquery.ba-postmessage.js', false, "", true);

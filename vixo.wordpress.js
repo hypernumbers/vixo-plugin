@@ -25,7 +25,7 @@ HN.wordpress.postMessage = function () {
         w = Number(e.data.replace(/.*width=(\d+)(.*$)/, '$1'));
         name = decodeURIComponent(e.data.replace(/.*name=(.+)(.*$)/, '$1'));
 	// only resize if it is NOT marked don't resize
-	if (!$("#" + name).hasClass("hn_dont_resize")) {	
+	if (!jQuery("#" + name).hasClass("hn_dont_resize")) {	
             jQuery("#" + name).css("height", h + 1);
             jQuery("#" + name).css("width", w + 1);
 	}
@@ -45,7 +45,7 @@ jQuery(document).ready(function () {
     // Firefox uses cached iframe sources by mistake
     var i, iframes;
 
-    iframes = $(".hn_wordpress");
+    iframes = jQuery(".hn_wordpress");
     for (i = 0; i < iframes.length; i = i + 1) {
 	iframes[i].contentWindow.location.href = iframes[i].src;
     }
