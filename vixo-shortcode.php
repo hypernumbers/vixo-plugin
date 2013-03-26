@@ -34,9 +34,10 @@ class vixo_shortcode {
 	       vixo_load_css_and_javascript();
 
 	       // now return the html
+         $wpurl = get_site_url();
 	       $page = utf8_uri_encode(get_permalink());
 	       $name = uniqid();
-	       return "<iframe id='$name' class='hn_wordpress $resizeFlag' style='$style' src='$url#wordpress!$page!$name'></iframe>";
+	       return "<iframe id='$name' class='hn_wordpress $resizeFlag' style='$style' src='$url?embeddedin=$wpurl#wordpress!$page!$name'></iframe>";
 	       }
 }
 

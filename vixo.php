@@ -1,19 +1,19 @@
 <?php
 /**
  * @package Vixo Back Office Integration Plugin
- * @version 1.4
+ * @version 1.5
  */
 /*
 Plugin Name: Embed charts graphs tables and forms with Vixo
 Plugin URI: http://wordpress.org/extend/plugins/vixo/
 Description: Allows you to integrate Vixo back office systems into WordPress
 Author: Gordon Guthrie
-Version: 1.4
+Version: 1.5
 Author URI: http://wordpress.vixo.com
 License: GPL2
 */
 
-/*  Copyright 2012 Hypernumbers Ltd (trading as vixo.com) gordon@vixo.com
+/*  Copyright 2013 Hypernumbers Ltd (trading as vixo.com) gordon@vixo.com
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as
